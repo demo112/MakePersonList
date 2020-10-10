@@ -69,7 +69,7 @@ class PersonList():
         else:
             title = title_en
 
-        for dp in range(1, self.departments):
+        for dp in range(1, self.departments + 1):
             # print(all_person)
             dp = format(dp)
             dp_person = all_person["dp:" + dp]
