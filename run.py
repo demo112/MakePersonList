@@ -49,7 +49,7 @@ class PersonList():
                 t = time.localtime()
                 _person_info = []
                 _person_info.append("jy%ss0000000%s" % (dp, num))
-                _person_info.append("jy%ss0000000%s" % (dp, num))
+                _person_info.append("jy%ss0000000%sABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuv" % (dp, num))
                 _person_info.append(random.randint(0, 2))
                 _person_info.append("jy%ss00IDNO00000%s" % (dp, num))
                 _person_info.append("jy%ss00ICNO00000%s" % (dp, num))
